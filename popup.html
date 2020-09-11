@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MVP Media Launcher</title>
+    <title>GDC Launcher</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?Family=Open+Sans" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg">
     <div class="modal-header">
         <h1 class="logo">
-            <img src="images/mvpmedia logo.JPG" alt="MVP Media Launcher" class="logo-icon"> 
-            MVP Media Launcher
-            <span class="version">(1.0.0)</span>
+            <img src="images/logo.png" alt="MVP Media Launcher" class="logo-icon"> 
+            GDC Launcher
+            <span class="version">(v1.0.0)</span>
         </h1>
     </div>
     <div class="modal-content">
-        <p>Easily access MVP Media content</p>
+        <p>Easily access Game Dev Coach content <i style="color: white;" class="fa fa-sticky-note"></i></p>
     </div>
     <div class="modal-icons">
         <div class="flex-container">
@@ -47,8 +47,20 @@
             </div>
         </div>
     </div>
+    <div class="copyright">
+        <a>copyright GDC <i class="fa fa-copyright"></i> 2020</a>
+    </div>
 
+<!-- Start Loader -->
+<div id="ftco-loader" class="show fullscreen">
+	<svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+	  <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#0077ff"/>
+    </svg>
+</div> 
+<!-- End Loader-->
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="app.js"></script>
+
 </body>
 
 </html>
